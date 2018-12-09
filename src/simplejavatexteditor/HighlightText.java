@@ -22,9 +22,10 @@ public class HighlightText extends DefaultHighlighter.DefaultHighlightPainter{
                 while ((pos = text.indexOf(pattern[i], pos)) >= 0) {
                     hilite.addHighlight(pos, pos + pattern[i].length(), this);
                     pos += pattern[i].length();
+			//2 Schleifen ?
                 }
             }
-        } catch (BadLocationException e) {}
+        } catch (BadLocationException e) {//leer!!!}
 
     }
 

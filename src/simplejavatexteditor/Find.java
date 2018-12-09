@@ -35,6 +35,7 @@ import javax.swing.*;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 
+//kein guter Klassenname
 public class Find extends JFrame implements ActionListener {
 
     private static final long serialVersionUID = 1L;
@@ -108,6 +109,8 @@ public class Find extends JFrame implements ActionListener {
         setLocationRelativeTo(txt);
         setVisible(true);
         setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+
+	//soooo lange
     }
 
     public void find() {
@@ -143,6 +146,7 @@ public class Find extends JFrame implements ActionListener {
             {
                 selection = JOptionPane.showInputDialog("Find:");
                 textF.setText(selection);
+		//sehr komplex
             }
         }
         try
